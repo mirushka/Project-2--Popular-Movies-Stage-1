@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/bigPadding"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textTitle" />
+
+        <ImageView
+            android:id="@+id/iv_movie_poster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/tv_release_dateTitle"
+            style="@style/FilmInfo"
+            android:paddingRight="@dimen/normalPadding"
+            android:text="@string/release_date"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_release_date"
+            style="@style/FilmInfo" />
+
+        <TextView
+            android:id="@+id/tv_averageTitle"
+            style="@style/FilmInfo"
+            android:paddingRight="@dimen/normalPadding"
+            android:text="@string/average"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_average"
+            style="@style/FilmInfo" />
+
+        <TextView
+            android:id="@+id/tv_plotTitle"
+            style="@style/FilmInfo"
+            android:text="@string/plot"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_plot"
+            style="@style/FilmInfo" />
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textTitle">20sp</dimen>
+    <dimen name="textBody">16sp</dimen>
+    <dimen name="normalPadding">7dp</dimen>
+    <dimen name="bigPadding">14dp</dimen>
+</resources>
